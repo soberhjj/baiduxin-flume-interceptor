@@ -1,0 +1,2 @@
+Flume拦截器：
+Fluem从Kafka中读取数据，Kafka中的数据其格式为json. 该Flume拦截器的目的是根据每条json数据的xwhen字段（字段值为时间戳）将数据按日期分目录输出至HDFS
